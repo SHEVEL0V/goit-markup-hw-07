@@ -1,0 +1,33 @@
+.hero{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 200px 0;
+    background: #2F303A66;
+
+    background-image:linear-gradient(to right,#2F303A66,#2F303A66),
+   url("/images/fon.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container{
+    
+        margin: 0  auto;  
+        width: 690px;
+        text-align: center;}  
+
+    &__title{
+        margin-bottom: 30px;
+    
+        font-family: $font-base;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        color: $bg-color-body;
+        letter-spacing: 0.06em;
+        
+        text-align: center;
+
+    }    
+    }

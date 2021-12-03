@@ -1,0 +1,59 @@
+.client{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &__title{
+        margin-bottom: 50px;
+
+        font-family: $font-base;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+        color: $color-content-first;
+    }
+
+    &__items{
+        display: flex;
+    }
+    &__item{
+        margin-right: 30px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__link{
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 170px;
+        height: 92px;
+        border: 1px solid;
+        border-radius: 4px;
+        
+        cursor: pointer;
+
+        color: $icon-color;
+        border-color: $icon-color;
+        
+        transition: 
+        box-shadow 250ms $cubic,
+        background-color 250ms $cubic,
+        color 250ms $cubic;
+    }
+    &__link:focus,
+    &__link:hover{
+        color: $icon-color-hover;
+        border-color: $icon-color-hover;
+
+    }
+
+    
+    &__svg{
+        --color1:currentcolor
+    }
+}
