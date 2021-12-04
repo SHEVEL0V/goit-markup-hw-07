@@ -20,11 +20,15 @@
         
         cursor: pointer;
 
-        color:$icon-color;
+        color: $icon-color;
         transition: 
-            box-shadow 250ms $cubic,
-            background-color 250ms $cubic,
-            color 250ms $cubic;
+        box-shadow 250ms $cubic,
+        background-color 250ms $cubic,
+        color 250ms $cubic;
+    }
+    &__footer{
+        color: $icon-color-footer;
+        background-color:$icon-color-bg ;
     }
     &__link:focus,
     &__link:hover{

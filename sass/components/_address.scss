@@ -1,0 +1,29 @@
+.address{
+
+    &__item:first-child{
+        margin-top: 20px;
+    }
+    &__item{
+        margin-bottom: 10px;}
+
+    &__item:last-child{
+        margin-bottom: 0;
+    }    
+
+    &__link{
+        display: block;
+
+        font-family: $font-base;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em; 
+        font-style: normal;
+        }
+
+    &__link--white{
+        color:#fff;
+    }
+    &__link--grey{
+        color:rgba(255, 255, 255, 0.6)
+    }
+}

@@ -1,0 +1,30 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $bg-fon-footer ;
+
+    &__wrapper{
+        display: flex;
+    }
+    &__item:first-child{
+        margin-right:70px
+    }
+    &__item:last-child{
+        margin-left: auto;
+    }
+    &__item:nth-child(n+2){
+        padding-top: 15px;
+    }
+    &__title{
+        margin-bottom: 20px;
+
+        font-family: $font-base;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+
+        color: $bg-color-body;
+    }
+}
