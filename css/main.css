@@ -420,8 +420,8 @@ a {
   margin: 0 auto;
   padding: 200px 0;
   background: #2F303A66;
-  background-image: -webkit-gradient(linear, left top, right top, from(#2F303A66), to(#2F303A66)), url("../images/fon.jpg");
-  background-image: linear-gradient(to right, #2F303A66, #2F303A66), url("../images/fon.jpg");
+  background-image: -webkit-gradient(linear, left top, right top, from(#2F303A66), to(#2F303A66)), url("../../images/fon.jpg");
+  background-image: linear-gradient(to right, #2F303A66, #2F303A66), url("../../images/fon.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
